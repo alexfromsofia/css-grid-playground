@@ -1,11 +1,17 @@
 {
-  "name": "styelint-setup",
+  "name": "css-grid-playground",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:alexfromsofia/styelint-setup.git",
   "author": "Alexander Georgiev <alexfromsofia@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "serve": "live-server",
+    "sass:watch": "node-sass -w -r ./styles/main.scss ./styles/style.css"
+  },
   "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
     "prettier": "^2.1.2",
     "stylelint": "^13.7.2",
     "stylelint-config-concentric-order": "^4.0.0",
