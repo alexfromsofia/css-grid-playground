@@ -1,3 +1,7 @@
-# styelint-setup
+# CSS Grid Playground
 
-## A very simple integration for styelint with husky pre-commit hooks. Works best with VS code and VS code's stylelint plugin.
+## Testing different layouts using CSS Grid
+
+1. Pancakes Stack
+
+2. Grid Columns
