@@ -1,0 +1,9 @@
+.responsive-without-media-query {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.responsive-without-media-query .item-5 {
+  grid-column-end: span 2;
+}
